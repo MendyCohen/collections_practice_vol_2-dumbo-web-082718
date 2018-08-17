@@ -24,4 +24,5 @@ def count_elements(names_arr)
     end
   end
     tracker.map {|key, value| {:name => key, :count => value}}
+    count_elements(names_arr)
 end
